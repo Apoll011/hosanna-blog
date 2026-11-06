@@ -1,124 +1,199 @@
 ---
-title: "Privacy Policy"
-meta_title: "Hosanna Privacy Policy"
-description: "How Hosanna protects your data, your church's privacy, and Google account data."
+title: "Hosanna Legal Center"
+meta_title: ""
+description: "Terms of Service and Privacy police of Hosanna"
 draft: false
 ---
-
-# Privacy Policy
-
 **Last updated:** August 14, 2026
 
 ---
 
-## 1. Absolute Content Privacy Principle
+## 1. Terms of Service
 
-Hosanna respects the private nature of your church's content. Hosanna **never** sells, licenses to advertisers, uses for marketing, or shares customer content (songs, lyrics, chord charts, services, and notes) with unrelated third parties. Hosanna **does not use** user or organization content to train Artificial Intelligence (AI) or Machine Learning (ML) models.
+**1.1. Acceptance of Terms**
+By creating an account, accessing, or using Hosanna applications (including Hosanna Studio and the Mobile App), you agree to be bound by these Terms of Service. If you do not agree with any of these conditions, you should not use the platform.
 
-## 2. Our Role under Data Protection Laws (GDPR)
+**1.2. Description of Service**
+Hosanna is a software platform designed to assist churches, ministries, and worship teams with organizing their music libraries, managing team members, and planning services.
+**Hosanna does not provide music.** The platform does not sell, distribute, host, or provide commercial music libraries, sheet music, lyrics, chord charts, or audio recordings. Hosanna acts exclusively as technological infrastructure allowing users to manage their own content.
 
-For the purposes of data protection regulations such as the General Data Protection Regulation (GDPR):
+**1.3. User Accounts and Organizations**
+Hosanna uses an authentication model based on personal accounts.
+
+- **Personal Account:** Users create an individual, personal account.
+- **Organizations:** To enjoy the full cloud experience (Hosanna Studio), the user must create or join an "Organization". The organization is the primary container where church songs, services, folders, settings, and teams reside.
+- **Members and Teams:** Users can be invited via email to join an organization. Organizations can be subdivided into teams for collaboration. Removing a member from an organization revokes their access to that organization's data but does not delete their personal Hosanna account.
+
+**1.4. Roles and Responsibilities**
+Each organization manages permissions through roles (e.g., Owner, Admin, Team Leader, Editor, Musician, Viewer). There is always strictly **one Owner** per organization. The Owner is ultimately responsible for decisions, billing, and organizational usage.
+
+**1.5. Mobile App and Offline/Local Mode**
+Hosanna's Mobile App offers two distinct modes of operation:
+
+- **Local / Unauthenticated Mode:** Users can open the Mobile App without creating an account or logging in. In this limited mode, the application works offline, allowing users to create and view songs stored locally on the device. No cloud organization data is accessed in this mode.
+- **Organization / Authenticated Mode:** When a user logs into their account and belongs to an organization, the app synchronizes songs, services, and content permitted by their role, enabling cached offline access to previously synced data.
+
+**1.6. Service and Terms Modifications**
+Hosanna is continuously evolving. Features may be added, modified, discontinued, or replaced. Hosanna reserves the right to update these Terms. Material changes will be communicated appropriately. Continued use of the service after changes indicates acceptance.
+
+**1.7. Beta Features**
+Hosanna may provide "Beta" or experimental features. These features are provided "as is", may contain bugs, undergo modifications, or be removed, and do not carry the same stability guarantees.
+
+---
+
+## 2. Privacy Policy
+
+**2.1. Absolute Content Privacy Principle**
+Hosanna respects the private nature of your church's content. Hosanna **never** sells, licenses to advertisers, uses for marketing, or shares customer content (songs, lyrics, chord charts, services, and notes) with unrelated third parties. Hosanna **does not use** user or organization content to train Artificial Intelligence (AI) models.
+
+**2.2. Our Role under GDPR**
+For the purposes of the General Data Protection Regulation (GDPR):
 
 - **Hosanna acts as Data Controller:** In relation to your personal account data, authentication details, billing information, security settings, and data required to fulfill our legal obligations.
 - **Hosanna acts as Data Processor:** In relation to operational and member data managed by the organization (service content, repertoire, team rosters), where the Organization acts as Data Controller.
 
-## 3. Categories of Personal Data Processed
+**2.3. Categories of Data Processed**
 
-We may collect, or process on behalf of our customers and users, the following categories of personal data when you use or interact with our products and services:
+- **Account and Security Data:** Name, email address, verification status, profile avatar, session information, and account security data (e.g., Two-Factor Authentication - 2FA).
+- **Organization Data:** Content created or submitted by churches, including folders, songs, lyrics in ChordPro format, services, notes, and invitations.
+- **Technical and Diagnostic Data:** Prior to final release (pre-1.0), Hosanna may utilize diagnostic tools and performance metrics (analytics) to detect errors and improve technical infrastructure reliability. This data is never used to profile musical content for marketing purposes.
 
-- **Account and Profile Information:** Name, email address, profile avatar, authentication identifiers, verification status, and user preferences.
-- **Security & Session Information:** Encrypted passwords, session tokens, login timestamps, and account security data (such as Two-Factor Authentication / 2FA status and recovery settings).
-- **Google Account Data:** When you sign in using Google OAuth, our application accesses only the basic profile data provided by Google: your **name** and **email address**. We do not access, collect, or process Google contacts, Google Drive files, Google Calendar data, browsing history, or any other unrelated Google account data.
-- **Organization & Worship Content:** Content created or submitted by churches, including song chord charts in ChordPro format, service setlists, folders, planning notes, and team invitations.
-- **Billing Information:** Payment metadata and subscription status processed via our PCI-compliant payment processor (Stripe). Hosanna does not store raw credit card numbers.
-- **Technical and Diagnostic Data:** Performance metrics, crash logs, and diagnostic information necessary to ensure application stability and reliability. This data is never used to profile musical content for marketing purposes.
+**2.4. Data Subject Rights**
+Under applicable legal grounds, users have the right to request access, rectification, erasure (right to be forgotten), restriction of processing, and portability of their personal data. Where processing is based on consent, it may be withdrawn at any time.
 
-## 4. How We Use Your Data (Including Google User Data)
+---
 
-We will use your data to provide you with the services you requested, such as:
+## 3. Cookie and Local Storage Policy
 
-- Authenticating your identity and managing your personal Hosanna account;
-- Providing worship planning and song library management features across Hosanna Studio (web) and the Hosanna Mobile App;
-- Enabling team collaboration, role-based access control, and workspace synchronization across your church's organization;
-- Sending essential transactional communications, such as email invitations, security alerts, and service notices;
-- Protecting the security, integrity, and operational availability of our platform.
+Hosanna uses strictly necessary storage technologies to ensure authentication and platform functionality. We do not use third-party advertising, marketing, or tracking cookies.
 
-**Limited Use of Google User Data:**  
-Our use of data obtained through Google OAuth APIs is strictly limited to providing and improving user-facing features of Hosanna.
+- **Session Cookies:** Used to securely keep users authenticated and protect session integrity.
+- **Local Storage / IndexedDB:** Used in the Mobile App and Studio to store local preferences, application state, and maintain a local cache of organization data. This enables the platform to operate offline.
 
-- We do **not** use Google user data for targeted advertising, personalized advertisements, retargeted advertisements, or interest-based advertising.
-- We do **not** sell Google user data to data brokers or provide it to information resellers.
-- We do **not** use Google user data for determining credit-worthiness or for lending purposes.
-- We do **not** use Google user data to create unrelated databases.
-- We **explicitly affirm** that Google user data and Google Workspace APIs are **not** used to develop, improve, or train generalized, non-personalized Artificial Intelligence (AI) and/or Machine Learning (ML) models.
+---
 
-## 5. With Whom We Share, Transfer, or Disclose Personal Data
+## 4. Acceptable Use Policy (AUP)
 
-We will not sell your data to third parties. We do not transfer or disclose your personal information or Google user data to third parties for purposes other than providing, securing, and improving the services you requested.
+To safeguard the security and integrity of the platform, users and organizations agree not to use Hosanna for:
 
-We may share or disclose data only with the following recipients:
+- Unlawful or fraudulent activities or violations of applicable laws;
+- Uploading, sharing, or distributing content that infringes third-party copyright or intellectual property rights;
+- Transmitting malware or attempting unauthorized access to accounts, other organizations' data, or Hosanna systems;
+- Circumventing authentication, security mechanisms, or subscription limits;
+- Making abusive automated requests, mass scraping, denial-of-service attacks, or misusing internal APIs;
+- Harassment, hate speech, extremism, fraud, or sexually explicit material inappropriate for the context of the service.
 
-- **Authorized Team Members:** The name and email address associated with your Hosanna account are visible to administrators and authorized team members within organizations you choose to join.
-- **Trusted Service Providers (Subprocessors):** We share data with partners and cloud vendors who help us provide our services under strict confidentiality and data protection terms:
-  - **Hosting & Infrastructure:** Vercel, Supabase / PostgreSQL providers
-  - **Payment Processing:** Stripe
-  - **Transactional Email:** Resend
-  - **Error & Diagnostic Monitoring:** Pre-1.0 performance diagnostics
-- **Legal & Regulatory Authorities:** When disclosure is strictly required by applicable law, court order, or governmental regulation.
+**Enforcement:** Hosanna investigates credible reports of policy violations. Depending on severity, we may issue warnings, restrict access, suspend accounts, remove members, or terminate organizations (including immediate account bans).
 
-We do **not** transfer Google user data to third parties for targeted advertising, data brokerage, credit evaluation, or generalized AI/ML training.
+---
 
-## 6. Data Protection and Security Mechanisms
+## 5. Copyright and Content Policy
 
-Security procedures are in place to protect the confidentiality and integrity of your data. We use encryption to protect your information both in transit and at rest:
+**5.1. Content Ownership**
+Customers and users retain all ownership rights to content they create or upload (subject to third-party rights). Hosanna receives only the limited license necessary to operate the service (storing, syncing, processing, displaying to authorized users, and performing technical backups).
 
-- **Encryption in Transit:** All communications between your device, browser, and Hosanna servers are encrypted using modern HTTPS/TLS protocols.
-- **Access Controls & Authentication:** Role-Based Access Control (RBAC) ensures users only access data permitted by their organization role. We support Two-Factor Authentication (2FA via TOTP) and secure cryptographic session tokens.
-- **Infrastructure Security:** Cloud databases and backups are hosted in secure, isolated environments with strict access restrictions.
+**5.2. Licensing Responsibility**
+Organizations are solely responsible for ensuring they possess all necessary rights, permissions, or licenses (e.g., through CCLI) for all musical content stored, reproduced, or shared on the platform. Hosanna acts as an infrastructure provider and does not automatically audit licensing for each song.
 
-## 7. Data Retention and Deletion
+**5.3. Audio & YouTube Integration**
+Hosanna does not host audio files or recordings. Metadata linking a song to YouTube videos merely references external content. Hosanna does not control external content, which remains subject to third-party terms.
 
-We store your personal information for a period of time that is consistent with our business purposes and user account lifecycle.
+**5.4. Copyright Takedown Procedure**
+If you are a copyright holder and believe your work is being improperly used on our infrastructure, please send a formal notice to our legal contact. We will investigate and reserve the right to remove or restrict access, while preserving the user's right to respond or counter-notify.
 
-- **Retention Period:** We will retain your personal information (including Google user data) for the length of time needed to fulfill the purposes outlined in this privacy policy, maintain account access, ensure platform security, and resolve disputes, unless a longer retention period is required or permitted by law.
-- **Data Deletion:** When the data retention period expires for a given type of data, or when an account/organization is terminated, we will delete or destroy it securely.
-- **How to Request Deletion:** You may delete your personal Hosanna account at any time directly through account settings, or request full deletion of your personal data and Google user data by contacting us at **[hosanna.songbook@gmail.com](mailto:hosanna.songbook@gmail.com)**. Upon receiving your request, we will delete or anonymize your personal data within statutory timeframes, except where retention is legally required.
-- **Backups:** Residual data contained in secure system backups is overwritten or destroyed in accordance with our standard backup retention cycles.
+---
 
-## 8. Cookie and Local Storage Policy
+## 6. Subscriptions, Billing, and Refunds
 
-Hosanna uses strictly necessary storage technologies:
+**6.1. Plans and Payment Processing**
+Hosanna Cloud operates on a subscription model (monthly or annual) at 12€/month per organization (or per campus). Payments are processed securely via our billing partner (Stripe). Hosanna does not store raw credit card details.
 
-- **Session Cookies:** Used to maintain secure user authentication sessions.
-- **Local Storage / IndexedDB:** Used in the Mobile App and Studio to store local preferences and maintain a local offline cache of songs and services so you can lead worship even without an internet connection.
-- **No Advertising Trackers:** Hosanna does not deploy third-party advertising, marketing, or behavioral tracking cookies.
+**6.2. Cooling-Off Period & Refunds**
 
-## 9. Data Processing Agreement (DPA)
+- **Initial 14-Day Period:** New subscriptions benefit from a 14-day cancellation window with full refund eligibility, subject to statutory consumer rights and voluntary terms.
+- **Grace Period (Monthly):** We provide a 3-day (72-hour) courtesy window after automated monthly renewals to request cancellation and refund for that billing cycle.
+- **Annual Plans:** Mid-cycle cancellations for annual plans may receive a pro-rata refund in accordance with active policy and mandatory consumer laws.
 
-Where Hosanna acts as a Data Processor for church organizations under GDPR:
+**6.3. Payment Failures**
+If a charge fails, the billing service will retry. After grace periods expire, the organization may enter read-only mode. Content is never deleted immediately, allowing organizations to export their library.
 
-- We process personal data solely according to documented instructions from the organization;
-- We ensure all personnel authorized to process data are bound by strict confidentiality;
-- We implement technical and organizational security measures;
-- We assist organizations in fulfilling data subject rights;
-- We delete or return organization data upon termination of the subscription, subject to statutory retention requirements.
+---
 
-## 10. Data Subject Rights
+## 7. Data Processing Agreement (DPA)
 
-Depending on your jurisdiction (such as under GDPR or applicable privacy laws), you have the right to:
+Where Hosanna acts as Data Processor for personal data entered into an Organization, we commit to:
 
-- Request access to the personal data we hold about you;
-- Request correction (rectification) of inaccurate or incomplete data;
-- Request erasure (deletion / right to be forgotten) of your personal data;
-- Request restriction of processing or object to processing;
-- Request data portability in a structured, commonly used format.
+- Processing data solely according to documented instructions from the organization;
+- Ensuring confidentiality obligations;
+- Implementing technical and organizational security measures;
+- Assisting the organization in fulfilling data subject requests;
+- Deleting or returning organization data upon service termination where feasible and requested, unless retention is legally required.
 
-To exercise any of these rights, contact us at **[hosanna.songbook@gmail.com](mailto:hosanna.songbook@gmail.com)**.
+---
 
-## 11. Legal Information & Contact
+## 8. Security and Data Management
 
-**Data Controller:**  
-Tiago Rodrigo dos Reis Inês  
-Camarate, Portugal.
+**8.1. Security**
+Hosanna implements reasonable technical safeguards including encrypted transport (HTTPS/TLS), secure session tokens, role-based access control (RBAC), and 2FA authentication via TOTP apps and recovery codes. User password hygiene remains critical to overall account protection.
 
-**Contact:** For any questions regarding this Privacy Policy, Google user data handling, GDPR, or data deletion requests, please contact: **[hosanna.songbook@gmail.com](mailto:hosanna.songbook@gmail.com)**.
+**8.2. Security Incidents**
+In the event of a confirmed personal data breach affecting users, Hosanna will comply with applicable data protection legislation, notifying competent authorities and affected users within required statutory timeframes.
+
+**8.3. Exports, Backups, and Organization Deletion**
+
+- **Export:** We recommend organizations maintain independent backups. The platform allows exporting data locally, though Hosanna does not store exports as separate cloud recovery files.
+- **Account Deletion:** Deleting a personal account does not delete content in organizations where you were a member.
+- **Organization Deletion:** This destructive action is managed by the Owner, permanently deleting associated folders, songs, services, teams, and invites.
+
+---
+
+## 9. Subprocessors
+
+To operate Hosanna, we utilize trusted external providers for cloud hosting, databases, authentication, email delivery, and payments (including Vercel, PostgreSQL providers, Stripe, Resend). Transfers outside the EEA utilize appropriate safeguards (e.g., Standard Contractual Clauses).
+
+---
+
+## 10. Open Source and Self-Hosting
+
+**10.1. Open Source License**
+Source code for Hosanna's server, Studio, Mobile App, and packages is released under the Apache License 2.0.
+
+**10.2. Cloud Service Distinction (Hosanna Cloud)**
+While code is under Apache 2.0, use of our managed hosted platform ("Hosanna Cloud") is governed by these Terms of Service.
+
+**10.3. Self-Hosting**
+Users hosting Hosanna on their own servers do so at their sole discretion and responsibility. Hosanna is not liable for infrastructure, updates, security, or data compliance on third-party self-hosted environments.
+
+---
+
+## 11. Accessibility
+
+Hosanna strives to follow accessibility best practices, incorporating features like font resizing, chord toggling, and screen keep-awake controls for musicians in live settings.
+
+---
+
+## 12. Service Availability & Disclaimers
+
+**12.1. Service Level**
+Hosanna strives for high reliability. However, the service is provided "as is" and may experience scheduled maintenance or transient interruptions.
+
+**12.2. Live Worship Context**
+Live worship requires preparation. While offline features mitigate connection drops, **users and organizations are responsible** for ensuring devices are charged, updated, and synced ahead of live services.
+
+---
+
+## 13. Community Guidelines
+
+We expect collaborative spaces to remain respectful, using notes for legitimate planning and honoring shared workspace resources.
+
+---
+
+## 14. Legal Information & Contact
+
+**Applicable Law:** These Terms are governed by Portuguese law, without prejudice to mandatory local consumer rights.
+
+**Service Operator:**
+Tiago Rodrigo dos Reis Inês
+Operated from Camarate, Portugal.
+
+**Contact:** For legal inquiries, GDPR, privacy, or copyright issues, reach us at: **[hosanna.songbook@gmail.com]**.
