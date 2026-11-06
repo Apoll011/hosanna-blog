@@ -9,14 +9,30 @@
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Hosanna App",
+      "url": "https://hosanna.live"
     },
     {
-      "name": "Pages",
+      "name": "ChordPro Guide",
+      "url": "https://hosanna.live/chordpro"
+    },
+    {
+      "name": "Contact",
+      "url": "https://hosanna.live/contact"
+    },
+    {
+      "name": "More",
       "url": "",
       "hasChildren": true,
       "children": [
+        {
+          "name": "Pricing",
+          "url": "https://hosanna.live/#pricing"
+        },
+        {
+          "name": "Studio",
+          "url": "https://studio.hosanna.live"
+        },
         {
           "name": "Authors",
           "url": "/authors"
@@ -31,27 +47,39 @@
         },
         {
           "name": "Privacy Policy",
-          "url": "/privacy-policy"
+          "url": "https://hosanna.live/privacy"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Main Home",
+      "name": "Hosanna",
       "url": "https://hosanna.live"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Studio",
+      "url": "https://studio.hosanna.live"
+    },
+    {
+      "name": "ChordPro Guide",
+      "url": "https://hosanna.live/chordpro"
+    },
+    {
+      "name": "Pricing",
+      "url": "https://hosanna.live/#pricing"
     },
     {
       "name": "Contact",
-      "url": "/contact"
+      "url": "https://hosanna.live/contact"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Privacy",
+      "url": "https://hosanna.live/privacy"
+    },
+    {
+      "name": "Terms",
+      "url": "https://hosanna.live/terms"
     }
   ]
 }

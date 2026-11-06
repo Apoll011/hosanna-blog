@@ -1,4 +1,12 @@
+# Hosanna Blog — https://blog.hosanna.live
+#
+# Submit this sitemap in Google Search Console (URL-prefix property for
+# blog.hosanna.live, or a Domain property covering *.hosanna.live).
+
 User-agent: *
 Allow: /
 
-Disallow: /api/*
+Disallow: /search
+Disallow: /api/
+
+Sitemap: https://blog.hosanna.live/sitemap-index.xml

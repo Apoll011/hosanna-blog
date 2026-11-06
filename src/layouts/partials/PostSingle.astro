@@ -1,6 +1,7 @@
 ---
 import Share from "@/components/Share.astro";
 import SimilarPosts from "@/components/SimilarPosts.astro";
+import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import similerItems from "@/lib/utils/similarItems";
@@ -16,7 +17,45 @@ const similarPosts = similerItems(post, posts, post.slug);
 const { Content } = await render(post);
 const { title, description, authors, categories, image, date, tags } =
   post.data;
+
+const saasUrl = config.links?.saas ?? "https://hosanna.live";
+const chordproUrl = config.links?.chordpro ?? "https://hosanna.live/chordpro";
+const contactUrl = config.links?.contact ?? "https://hosanna.live/contact";
+const postUrl = `https://blog.hosanna.live/blog/${post.id}`;
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: title,
+  description: description || config.metadata.meta_description,
+  image: image ? `https://blog.hosanna.live${image}` : undefined,
+  datePublished: date ? new Date(date).toISOString() : undefined,
+  mainEntityOfPage: postUrl,
+  author: {
+    "@type": "Person",
+    name: Array.isArray(authors) && authors[0] ? authors[0] : "Hosanna",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Hosanna",
+    url: saasUrl,
+    logo: {
+      "@type": "ImageObject",
+      url: "https://blog.hosanna.live/images/icon.png",
+    },
+  },
+  isPartOf: {
+    "@type": "Blog",
+    name: config.site.title,
+    url: "https://blog.hosanna.live",
+  },
+};
 ---
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(articleJsonLd)}
+/>
+
 
 <section class="section">
   <div class="container">
@@ -117,6 +156,42 @@ const { title, description, authors, categories, image, date, tags } =
             slug={post.id}
           />
         </div>
+
+        <aside
+          class="mt-12 rounded-xl border border-border bg-light p-6 text-left"
+        >
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary">
+            Hosanna
+          </p>
+          <h2 class="h4 mb-3">Try the songbook these posts are about</h2>
+          <p class="mb-5 text-text">
+            ChordPro charts, offline sync, and Sunday service planning for your
+            church — free to explore on the web, with Studio for the team.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a
+              href={saasUrl}
+              class="btn btn-primary text-white py-2"
+              rel="noopener"
+            >
+              Visit hosanna.live
+            </a>
+            <a
+              href={chordproUrl}
+              class="btn border border-primary text-primary py-2 hover:bg-primary hover:text-white transition"
+              rel="noopener"
+            >
+              ChordPro guide
+            </a>
+            <a
+              href={contactUrl}
+              class="btn border border-border py-2 hover:border-primary hover:text-primary transition"
+              rel="noopener"
+            >
+              Contact
+            </a>
+          </div>
+        </aside>
       </div>
     </article>
   </div>

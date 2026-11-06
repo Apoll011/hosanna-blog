@@ -53,9 +53,24 @@ export default defineConfig({
   image: { service: sharpImageService() },
   vite: { plugins: [tailwindcss()] },
   fonts: fontsConfig,
+  redirects: {
+    // Single contact surface on the marketing site.
+    "/contact": "https://hosanna.live/contact",
+    // Prefer canonical legal pages on hosanna.live.
+    "/privacy-policy": "https://hosanna.live/privacy",
+  },
   integrations: [
     react(),
-    sitemap(),
+    sitemap({
+      filter: (page) =>
+        !page.includes("/contact") &&
+        !page.includes("/privacy-policy") &&
+        !page.includes("/search") &&
+        !page.includes("/404"),
+      changefreq: "weekly",
+      priority: 0.7,
+      lastmod: new Date(),
+    }),
     AutoImport({
       imports: [
         "@/shortcodes/Button",

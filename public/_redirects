@@ -1,0 +1,7 @@
+# Contact lives on the marketing site — keep a single form/inbox.
+/contact              https://hosanna.live/contact  301
+/contact/             https://hosanna.live/contact  301
+
+# Legal pages: prefer the canonical SaaS copies.
+/privacy-policy       https://hosanna.live/privacy  301
+/privacy-policy/      https://hosanna.live/privacy  301

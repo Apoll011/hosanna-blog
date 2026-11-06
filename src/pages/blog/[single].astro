@@ -17,7 +17,8 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, meta_title, image, description } = post.data;
+const { title, meta_title, image, description, date } = post.data;
+const canonical = `https://blog.hosanna.live/blog/${post.id}`;
 ---
 
 <Base
@@ -25,6 +26,9 @@ const { title, meta_title, image, description } = post.data;
   meta_title={meta_title}
   description={description}
   image={image}
+  canonical={canonical}
+  ogType="article"
+  publishedTime={date}
 >
   <PostSingle post={post} />
 </Base>

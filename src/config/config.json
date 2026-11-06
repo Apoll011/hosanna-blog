@@ -14,21 +14,25 @@
     "pagination": 5
   },
   "metadata": {
-    "meta_author": "Apoll011",
+    "meta_author": "Hosanna",
     "meta_image": "/images/og-image.png",
-    "meta_description": ""
+    "meta_description": "Guides and product notes for Hosanna — ChordPro songbook, offline worship charts, service planning, and Studio for church teams."
+  },
+  "links": {
+    "saas": "https://hosanna.live",
+    "contact": "https://hosanna.live/contact",
+    "chordpro": "https://hosanna.live/chordpro",
+    "pricing": "https://hosanna.live/#pricing",
+    "about": "https://hosanna.live/about",
+    "studio": "https://studio.hosanna.live",
+    "privacy": "https://hosanna.live/privacy",
+    "terms": "https://hosanna.live/terms"
   },
   "google_tag_manager": {
     "enable": false,
     "gtm_id": ""
   },
   "params": {
-    "contact_form_action": "#",
-    "copyright": "Copyright © 2026 Hosanna"
-  },
-  "contactinfo": {
-    "address": "Lisbon",
-    "email": "hosanna.songbook@gmail.com",
-    "phone": ""
+    "copyright": "Copyright © 2026 [Hosanna](https://hosanna.live)"
   }
 }

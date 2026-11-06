@@ -10,10 +10,48 @@ const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
 const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+const saasUrl = config.links?.saas ?? "https://hosanna.live";
+const chordproUrl = config.links?.chordpro ?? "https://hosanna.live/chordpro";
+const studioUrl = config.links?.studio ?? "https://studio.hosanna.live";
 ---
 
 <Base>
-  <section class="section">
+  <section class="section pb-0">
+    <div class="container">
+      <div class="mb-12 rounded-xl border border-border bg-light p-6 md:p-8 text-center md:text-left md:flex md:items-center md:justify-between md:gap-8">
+        <div class="mb-5 md:mb-0 max-w-2xl">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wide text-primary">
+            Hosanna
+          </p>
+          <h1 class="h3 mb-2">Worship charts &amp; Sunday planning</h1>
+          <p class="text-text mb-0">
+            Product notes and how-tos for ChordPro songbooks, offline sync, and
+            service planning — built alongside the Hosanna app.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center md:justify-end gap-3 shrink-0">
+          <a href={saasUrl} class="btn btn-primary text-white py-2" rel="noopener">
+            Open hosanna.live
+          </a>
+          <a
+            href={chordproUrl}
+            class="btn border border-primary text-primary py-2 hover:bg-primary hover:text-white transition"
+            rel="noopener"
+          >
+            ChordPro guide
+          </a>
+          <a
+            href={studioUrl}
+            class="btn border border-border py-2 hover:border-primary hover:text-primary transition"
+            rel="noopener"
+          >
+            Studio
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section pt-0">
     <div class="container">
       <Posts posts={currentPosts} className="mb-16" />
       <Pagination currentPage={1} totalPages={totalPages} />
